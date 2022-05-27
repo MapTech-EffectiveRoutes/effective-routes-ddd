@@ -1,0 +1,1 @@
+{"version":3,"file":"register-person-request.dto.js","sourceRoot":"","sources":["../../../../../src/clients/application/dtos/request/register-person-request.dto.ts"],"names":[],"mappings":";;;AAAA,MAAa,qBAAqB;IAChC,YACkB,SAAiB,EACjB,QAAgB,EAChB,GAAW;QAFX,cAAS,GAAT,SAAS,CAAQ;QACjB,aAAQ,GAAR,QAAQ,CAAQ;QAChB,QAAG,GAAH,GAAG,CAAQ;IAC1B,CAAC;CACL;AAND,sDAMC"}
