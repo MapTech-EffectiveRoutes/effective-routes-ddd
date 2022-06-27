@@ -1,1 +1,0 @@
-{"version":3,"file":"withdraw-request.dto.js","sourceRoot":"","sources":["../../../../../src/transactions/application/dtos/request/withdraw-request.dto.ts"],"names":[],"mappings":";;;AAAA,MAAa,kBAAkB;IAC7B,YACkB,aAAqB,EACrB,MAAc;QADd,kBAAa,GAAb,aAAa,CAAQ;QACrB,WAAM,GAAN,MAAM,CAAQ;IAEhC,CAAC;CACF;AAND,gDAMC"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"register-company-response.dto.js","sourceRoot":"","sources":["../../../../../src/clients/application/dtos/response/register-company-response.dto.ts"],"names":[],"mappings":";;;AAAA,MAAa,uBAAuB;IAClC,YACS,EAAU,EACD,IAAY,EACZ,GAAW;QAFpB,OAAE,GAAF,EAAE,CAAQ;QACD,SAAI,GAAJ,IAAI,CAAQ;QACZ,QAAG,GAAH,GAAG,CAAQ;IAC1B,CAAC;CACL;AAND,0DAMC"}

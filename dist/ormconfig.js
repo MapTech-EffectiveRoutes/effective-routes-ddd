@@ -1,6 +1,6 @@
 module.exports = {
   type: 'mysql',
-  url: process.env.BANKING_DDD_NEST_MYSQL,
+  url: 'mysql//root:admin@localhost:3306/effective_routes_ddd',
   migrationsRun: true,
   logging: true,
   timezone: '+0',
