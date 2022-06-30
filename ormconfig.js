@@ -1,13 +1,17 @@
 module.exports = {
+  name: 'default',
   type: 'mysql',
-  url: 'mysql//root:admin@localhost:3306/effective_routes_ddd',
+  url: 'mysql://root:root@localhost:3306/notificaciones',
+  synchronize: true,
   migrationsRun: true,
   logging: true,
   timezone: '+0',
   bigNumberStrings: false,
-  entities: [process.env.ENVIRONMENT == 'prod' ? '**/infrastructure/persistence/typeorm/entities/*.js' : 'dist/**/infrastructure/persistence/typeorm/entities/*.js'],
-  migrations: [process.env.ENVIRONMENT == 'prod' ? 'common/infrastructure/persistence/typeorm/migrations/*.js' : 'dist/common/infrastructure/persistence/typeorm/migrations/*.js'],
+  entities: ['dist/domain-bbom/entities/*.js'],
+  migrationsTableName: 'migrations',
+  migrations: ['dist/migrations/*.js'],
   cli: {
-    migrationsDir: process.env.ENVIRONMENT == 'prod' ? 'common/infrastructure/persistence/typeorm/migrations' : 'src/common/infrastructure/persistence/typeorm/migrations',
+    migrationsDir: 'src/migrations',
   },
+  dropSchema: false,
 };
